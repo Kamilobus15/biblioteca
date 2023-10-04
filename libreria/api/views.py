@@ -13,6 +13,7 @@ class AutorViewSet(viewsets.ModelViewSet):
     queryset = Autor.objects.all()
     serializer_class = AutorSerializer
 
+
 class EditorialViewSet(viewsets.ModelViewSet):
     queryset = Editorial.objects.all()
     serializer_class = EditorialSerializer
